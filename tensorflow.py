@@ -52,7 +52,7 @@ def train_step(x, y):
 
 # ⏱️ 开始训练计时
 start_train = time.time()
-EPOCHS = 5
+EPOCHS = 20
 
 for epoch in range(EPOCHS):
     print(f"\n📦 Epoch {epoch+1}/{EPOCHS}")
